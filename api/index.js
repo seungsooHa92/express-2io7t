@@ -10,7 +10,7 @@ var usersRouter = require('./routes/users');
 var vansRouter = require('./routes/vans')
 
 var app = express();
-var allowedDomains = ['http://localhost:5173', 'https://2io7t.netlify.app']; //TODO 바꿔야함
+var allowedDomains = ['http://localhost:5173', 'https://front-2io7t.vercel.app'];
 var corsOptions = {
   origin: function (origin, callback) {
     // 요청이 허용된 도메인인지 확인
